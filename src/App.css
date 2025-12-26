@@ -136,6 +136,10 @@ body {
 .story {
   margin: 8px 0;
   font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;   /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* RESPONSIVE */
